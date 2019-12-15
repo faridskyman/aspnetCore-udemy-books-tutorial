@@ -13,3 +13,7 @@ Resource
 - the tutorial link: https://www.youtube.com/watch?v=zIfxkub7CLY
 - webhook link:
 -- https://githubmonitorappsg.azurewebsites.net/api/GithubMonitor
+
+Update section
+- this part will be updated just to test webhook
+-- update 1: 15-12-2019, 3:55pm

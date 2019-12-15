@@ -28,13 +28,12 @@ namespace udemy_web_project_01
             services.AddDbContext<ApplicationDBContext>(option => option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllersWithViews(); //for web api calls.
             services.AddRazorPages().AddRazorRuntimeCompilation();
-
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            #region base items
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -45,14 +44,13 @@ namespace udemy_web_project_01
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
+           
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
-
             app.UseAuthorization();
 
+            #endregion
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers(); //for webapi controller endpoints

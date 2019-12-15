@@ -9,7 +9,7 @@
         </div>
 
         <div class="col-2">
-            <a asp-page="Create" class="btn btn-info form-control text-white">Create New Book</a>
+            <a asp-page="Upsert" class="btn btn-info form-control text-white">Create New Book</a>
         </div>
 
         <div class="col-12 mt-3 p-3 border">
@@ -72,8 +72,8 @@
             <span class="h3 text-info">OR</span>
             <br /><br />
         </div>
-        <div class="col-12 border p-3">
 
+        <div class="col-12 border p-3">
             <table id="DT_load" class="table table-striped table-bordered" style="width:100%">
                 <thead>
                     <tr>
@@ -85,10 +85,6 @@
                 </thead>
             </table>
         </div>
-
-
-        
-
 
         @*javascript sections for loading data to this data-table*@
         @section Scripts{

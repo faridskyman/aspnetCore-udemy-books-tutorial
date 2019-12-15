@@ -7,3 +7,9 @@ the udemy course :
 
 My Notes
 - https://docs.google.com/presentation/d/1gZzW76h7ZAnN0e6lrCX6NHQbwuys9xXFNdW-WELmDGg/edit#slide=id.g7a6d1615eb_0_9
+
+Resource
+- this repo has webhook to azure
+- the tutorial link: https://www.youtube.com/watch?v=zIfxkub7CLY
+- webhook link:
+-- https://githubmonitorappsg.azurewebsites.net/api/GithubMonitor

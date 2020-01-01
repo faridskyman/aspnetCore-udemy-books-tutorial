@@ -7,3 +7,7 @@ the udemy course :
 
 My Notes
 - https://docs.google.com/presentation/d/1gZzW76h7ZAnN0e6lrCX6NHQbwuys9xXFNdW-WELmDGg/edit#slide=id.g7a6d1615eb_0_9
+
+
+Log:
+27-12-2019 - added serilog via tim-corey tutorials via youtube - https://www.youtube.com/watch?v=_iryZxv8Rxw&t=1072s

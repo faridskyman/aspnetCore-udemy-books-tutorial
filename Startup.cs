@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using udemy_web_project_01.Model;
+using Serilog;
 
 namespace udemy_web_project_01
 {
@@ -47,6 +48,9 @@ namespace udemy_web_project_01
            
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            app.UseSerilogRequestLogging();
+
             app.UseRouting();
             app.UseAuthorization();
 
